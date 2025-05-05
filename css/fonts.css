@@ -1,0 +1,7 @@
+@font-face{
+  font-family: 'Prata';
+  src: local('Prata Regular'), local('Prata-Regular'),
+      url('../fonts/Prata-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
