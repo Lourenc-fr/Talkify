@@ -238,9 +238,8 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 40px;
-  min-width: 191px;
+  width: 191px;
   max-width: 100%;
-  width: auto;
   min-height: 96px;
   background-color: #404040;
   border-radius: 4px;
@@ -429,6 +428,7 @@ body {
   margin-top: 26px;
   background-color: #282829;
   min-height: 100px;
+  width: 100%;
   font-weight: 400;
   text-transform: uppercase;
   color: #fff;
@@ -502,7 +502,8 @@ body {
 
 .footer__btn {
   margin-top: 0;
-  min-width: 180px;
+  /* min-width: 180px; */
+  width: 180px;
   min-height: 78px;
   font-size: 20px;
   font-weight: 400;
@@ -711,8 +712,10 @@ body {
     margin-top: 25px;
   }
 
-  .main__btn {
-    justify-self: center;
+  .main__btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items:center;
   }
 }
 
